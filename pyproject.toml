@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "dspace-dl"
+version = "0.1.0"
+description = ""
+authors = ["eedeidk <59429783+eedeidk@users.noreply.github.com>"]
+license = "The Unlicense"
+readme = "README.md"
+packages = [{include = "dspace_dl"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+beautifulsoup4 = "^4.12.2"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
